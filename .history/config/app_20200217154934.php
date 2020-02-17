@@ -175,9 +175,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        //? Necessario para o Laravel Crud-Generator
-        Appzcoder\CrudGenerator\CrudGeneratorServiceProvider::class,
-        Collective\Html\HtmlServiceProvider::class,
+         //? Necessario para o Laravel Crud-Generator
+         Collective\Html\HtmlServiceProvider::class,
 
     ],
 
@@ -230,11 +229,11 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
-        //? Necessario para o Laravel Crud-Generator
-        'Form' => Collective\Html\FormFacade::class,
-        'HTML' => Collective\Html\HtmlFacade::class,
+         //? Necessario para o Laravel Crud-Generator
+         'Form' => Collective\Html\FormFacade::class,
+         'HTML' => Collective\Html\HtmlFacade::class,
 
-
+       
 
     ],
 
